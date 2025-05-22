@@ -1,7 +1,57 @@
-body {
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+       body {
+            
+            font-family: Arial, sans-serif; 
+            background-color: #b4baf1;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        
+            align-items: center;
+            height: 840px;
+        }
+        
+        .caixa {
+            margin-bottom: 38%;
+            margin-left: 2%;
+
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        
+        .agende {
+            font-size: 700% ;
+            font-weight: bold;
+            color: #0066cc;
+            line-height: 1.1;
+            margin-bottom: 10%  ;
+            
+        }
+        
+        .slogan {
+            font-size: 1.5em;
+            color: #555;
+            margin-top: 35%;
+            line-height: 1.4;
+        }
+        
+        .saiba-mais {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: 0.3s;
+            margin-left: 38%;
+            margin-top: 50%;
+        }
+        
+        .saiba-mais:hover {
+            background-color: #0055aa;
+        }
