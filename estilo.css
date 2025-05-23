@@ -1,0 +1,64 @@
+       body {
+            background-image: url(fundo.jpg);
+            background-repeat: no-repeat;
+            background-size: 108%;
+            font-family: Arial, sans-serif; 
+          
+            margin: 0;
+            padding: 0;
+            display: flex;
+        
+            align-items: center;
+            height: 840px;
+        }
+        hr{
+                border-left: 6px solid rgb(0, 0, 0);
+                height: 500px;
+        }
+        
+        .caixa {
+            margin-bottom: 38%;
+            margin-left: 2%;
+            font-size:280%;
+
+        }
+        
+        h1 {
+            color: #161616;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        
+        .agende {
+            font-size: 700% ;
+            font-weight: bold;
+            color: #ffffff;
+            line-height: 1.1;
+            margin-bottom: 10%  ;
+            
+        }
+        
+        .slogan {
+            font-size: 1.5em;
+            color: #3f3f3f;
+            margin-top: 35%;
+            line-height: 1.4;
+        }
+        
+        .saiba-mais {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: 0.3s;
+            margin-left: 38%;
+            margin-top: 50%;
+        }
+        
+        .saiba-mais:hover {
+            background-color: #0055aa;
+        }
