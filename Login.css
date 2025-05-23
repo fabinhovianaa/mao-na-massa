@@ -1,9 +1,5 @@
 body {
-    background-image: url(1.jpg);
-    background-repeat: no-repeat;
-    background-size: 103%;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: #ffff;
+ background: linear-gradient(to right, rgb(7, 87, 139), rgb(153, 212, 252))
     
 }
 a{
@@ -12,11 +8,13 @@ a{
 
 }
 #caixa {
+    border:5px solid ;
+    border-radius: 40px;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+    
+
+   
     padding: 90px;
 }
 .email input{
