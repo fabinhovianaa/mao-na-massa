@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(114, 114, 114));
+    background: linear-gradient(to right, rgb(255, 250, 205), rgb(54, 144, 247));
 }
 
 .logo img {
@@ -43,7 +43,7 @@ body {
 .pecas{
     position: absolute;
     top: 10%; 
-    left: 40%; 
+    left: 35%; 
     transform: translate(-50%, -50%); 
     color: white; 
     font-size: 30px; 
@@ -59,7 +59,7 @@ body {
 .modelo{
     position: absolute;
     top: 10%; 
-    left: 20%; 
+    left: 15%; 
     transform: translate(-50%, -50%); 
     color: white; 
     font-size: 30px; 
@@ -75,7 +75,7 @@ body {
 
 hr{
     
-      margin-top: 0;
+      margin-top: 19px;
       margin-bottom: 0;
       padding: 0;
       height: 0;
@@ -91,7 +91,7 @@ hr{
 
 .container {
     width: 100%; 
-    height: 797px;
+    height: 800px;
     position: center; 
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0,0,0,0.7);
@@ -105,21 +105,9 @@ hr{
 
 .fundoa img {
     width:100%;
-    height: 100%;
+    height: 110%;
     object-fit: cover;
+    
 }
 
-.fonte {
-    position: absolute; 
-    top: 19%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
 
-.fonte img {
-    width: 100%; 
-    height: auto;
-    margin-top: 214%;
-    size: 50%; 
-}

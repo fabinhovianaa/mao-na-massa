@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(-45deg, #33312e, #474545, #b1b1b1);
+    background: linear-gradient(to right, rgb(255, 250, 205), rgb(54, 144, 247));
 }
 #form{
     position: relative;
@@ -58,7 +58,7 @@ body{
 }
 #btn button{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(-45deg, #33312e, #474545, #b1b1b1);
+    background: linear-gradient(to right, rgb(255, 250, 205), rgb(54, 144, 247));
     width: 100%;
     height: 40px;
     border: none;
@@ -69,7 +69,7 @@ body{
     cursor: pointer;
 }
 #btn button:hover{
-    background: linear-gradient(-45deg, #272623, #333131, #6d6c6c);
+    background: linear-gradient(to right, rgb(228, 223, 181), rgb(44, 122, 211));
 }
 @keyframes iniciar{
     0%{
