@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, rgb(255, 250, 205), rgb(54, 144, 247));
+    background: rgb(13, 95, 161)
 }
 
 .logo img {
@@ -15,6 +15,8 @@ body {
     transform: translate(-50%, -50%); 
     font-size: 30px; 
     z-index: 10; 
+    font-style: normal;
+    font-weight: 900px;
 }
 .loginf li {
     list-style: none;
@@ -86,6 +88,7 @@ hr{
     background-color: #dddddd;
     transform: translate(0%, 0%);
     z-index: 1;
+    border-radius: 10px;
 
 }
 
@@ -96,17 +99,18 @@ hr{
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0,0,0,0.7);
     background: linear-gradient(-45deg,#ffffff, #292929, #1c1c1c);
+    border-radius: 10px;
     
 }
 
 .fundoa {
-    position: relative; 
+
 }
 
 .fundoa img {
     width:100%;
-    height: 110%;
-    object-fit: cover;
+    height: 100%;
+    
     
 }
 
