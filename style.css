@@ -1,0 +1,48 @@
+body {
+    background-color: peru;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(19, 19, 20);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+
+}
+.img-center {
+    text-align: center;
+}
+.img-center img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    border-radius: 12px;
+}
+
